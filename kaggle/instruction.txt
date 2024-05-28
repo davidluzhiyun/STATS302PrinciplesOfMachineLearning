@@ -1,0 +1,22 @@
+What is the underlying question?
+Sandstones originate from different geological epochs and have different formation histories. Does the geometry of the pore volume inside a matrix of sintered sand grains capture enough of these difference such that one can predict the type of sandstone from the image of a two-dimensional slice of a sandstone?
+
+What is the actual machine learning project?
+You are given 3320 images of size 150 by 150 pixels, which belong to 4 different types of sandstone. Train a model to predict the right type of sandstone when given one of these images. Your test data are 830 images of the same size. Make predictions for all of them using your model. Kaggle will evaluate your prediction on the test data and add your score to the public leaderboard.
+
+What do I have to do?
+
+Join the In-class competition on Kaggle with the following link. https://www.kaggle.com/competitions/stats302-2023/overview
+
+Agree to the rules, then download the data and run the getting started notebook on your computer. Alternatively, you can also run on Kaggle by making a copy of the following notebook.  If you decide to work on Kaggle that is fine. Afterall you have access to good GPUs there. However, make sure, you only work in private notebooks. Sharing private notebooks between students is considered failing on this assessment!
+Follow this workflow:
+I) Analyze the data.
+II) Develop your own ML model.
+III) Train your model. Use your own validation data or cross validation.
+IV) go back to I.
+If you are happy with your results, make a prediction for the test data and submit to Kaggle.  Once your result on the leaderboard is better than 75%, you have only 6 more submissions counting towards the competition!   This is due to the fact that we do not have enough test data for a private leaderboard to be statistically representative. So you will need to use cross-validation on your training data. Be aware that you have also a maximum of 7 submissions per day!
+Once you are happy with your ranking, prepare your actual submission for this assessment, which has two parts:  Final Model and Analysis.
+Final model is a notebook (it can be a Kaggle notebook, which you share only with me). This notebook should contain all the code required to run your best model according to the leaderboard. (It is understood that due to different random number initialization it will not exactly reproduce your result.)
+Analysis is a PDF file that contains text and figures explaining how you arrived at that model. This part is meant to tell a self-consistent story: explain your thoughts including intermediate results. Analysis should not contain any Python code and not extend over more than 5 pages.
+How is this assignment graded?
+There is a rubric which you can check out in gradebook. We will discuss this rubric in the synchronous class on February 6. Your position on the leaderboard is only relevant for your chance to obtain extra credit points. The regular 10 points for this assessment are only based on the quality of your notebook and analysis.

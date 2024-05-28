@@ -1,0 +1,12 @@
+# effort: 7  out of 7 points
+reasonably well commented notebook
+
+# creativity and critical thinking:  7  out of 8 points
+careful preprocessing using domain knowledge, permutation importance.
+some correlation analysis or clustering would have made it 8 out of 8
+
+# presentation:  7  out of 8 points
+clear story, slides have clear message, some tables unreadable, went over time
+
+# discussion:  5 out of 7 points
+two times 0

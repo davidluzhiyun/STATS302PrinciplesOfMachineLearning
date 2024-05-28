@@ -1,0 +1,4 @@
+1d) -0.5 points: =tanh(2tanh(11+1)+2)
+1e) -0.5 point: first layer 10 x 50 weights  + 50 bias. second layer 50 x 3 weights + 3 bias = 703 trainable parameters.  (missing!)
+
+3 -0.5 points: nice idea, but you want to avoid false negatives due to your allergy, i.e. you need high recall
